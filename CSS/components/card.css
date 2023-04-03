@@ -1,0 +1,44 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card{
+	padding: 20px;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 5px;
+	background-color: #FDA769;
+	color: #FFFBF5;
+	margin-bottom: 10px ;
+	margin-top:10px ;
+	margin-left: 40px;
+	margin-right:40px ;
+	flex-grow: 1;
+	box-shadow: 0px 10px 30px rgb(195 192 192);
+}
+
+.card :hover{
+	color: black;
+
+}
+.card img{
+	width: 350px;
+	border-radius: 5px;
+}
+
+.card2 {
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgb(195 192 192);
+	padding: 0.5px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.header{
+	padding: 20px;
+	display: flex;
+	justify-content:space-around;
+}
+
+
